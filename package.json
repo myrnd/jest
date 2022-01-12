@@ -4,7 +4,9 @@
   "description": "* Unit Testing with JEST",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose --watch",
+    "test-watch": "jest --watchAll",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
